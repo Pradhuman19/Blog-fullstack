@@ -6,6 +6,7 @@ const Createpost = () => {
   const [content,setContent]=useState('')
   const navigate=useNavigate()
   
+  //changes
 
   async function handlePosting(e){
     e.preventDefault() // prevent the default action of form submission, if this does not exists the page will reload on submit and therefore causing the below code to not run
